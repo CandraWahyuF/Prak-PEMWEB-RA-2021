@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Tugas 3 Pemweb RA</title>
+  </head>
+
+  <body>
+    <!-- Pilih warna tema -->
+    <div id="pilih-warna">
+      <label for="warna">Pilih Tema : </label>
+      <a onclick="changecolor('merah')" id="merah">red</a>
+      <a onclick="changecolor('jingga')" id="jingga">orange</a>
+      <a onclick="changecolor('kuning')" id="kuning">yellow</a>
+      <a onclick="changecolor('hijau')" id="hijau">green</a>
+      <a onclick="changecolor('biru')" id="biru">blue</a>
+      <a onclick="changecolor('nila')" id="nila">indigo</a>
+      <a onclick="changecolor('ungu')" id="ungu">purple</a>
+    </div>
+    <!-- End warna tema -->
+
+    <!-- Pilih Mood -->
+    <div id="pick-mood">
+      <h2>Selamat datang Welcome</h2>
+      <label for="mood">Pick your Mood : </label>
+      <select name="mood" id="mood" onchange="onMood()">
+        <option value=""></option>
+        <option value="happy">Bahagia</option>
+        <option value="sad">Sedih</option>
+      </select>
+    </div>
+    <p id="kata"></p>
+    <!-- End Pilih Mood -->
+
+    <!-- Fungsi Faktorial -->
+    <div id="faktor">
+      <h4>Program Faktorial</h4>
+      <label for="faktorial">Masukan Angka : </label>
+      <input type="text" id="faktorial" name="faktorial" />
+      <button type="button" id="faktorial" onclick="getFaktorial()">Cek</button>
+    </div>
+    <p id="hasilfaktorial"></p>
+    <!-- End Faktorial -->
+
+    <!-- MY Javascript -->
+    <script src="assets/js/MyJS.js"></script>
+  </body>
+</html>
