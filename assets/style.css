@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(to bottom, #aabc00, #2dcc1f);
+}
+
+.pesan1 {
+  background: gray;
+  color: white;
+}
+
+table,
+th,
+td,
+tr {
+  border: 1px solid black;
+  border-color: brown;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+}
+
+#btn_tampil {
+  margin: 15px;
+  width: 70px;
+  height: 30px;
+  background: lightgreen;
+}
+
+table input {
+  border-style: none;
+  text-align: center;
+  color: white;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+#footer {
+  background: brown;
+  color: white;
+}
+
+#nota {
+  text-align: center;
+  color: white;
+}
